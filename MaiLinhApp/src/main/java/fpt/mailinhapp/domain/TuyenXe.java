@@ -31,11 +31,11 @@ public class TuyenXe {
     @Column(name = "noi_tra")
     private String noiTra;
 
-    @Column(name = "tgian_di", nullable = false)
-    private LocalTime tGianDi;
+    @Column(name = "tgian_di")
+    private LocalTime tgDi;
 
-    @Column(name = "tgian_den", nullable = false)
-    private LocalTime tGianDen;
+    @Column(name = "tgian_den")
+    private LocalTime tgDen;
 
     @Column(name = "gia")
     private Float gia;

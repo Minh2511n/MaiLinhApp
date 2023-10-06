@@ -55,4 +55,16 @@ public class CustomerExceptionHandler extends ResponseEntityExceptionHandler {
         ExceptionResponse er = new ExceptionResponse(ex.getMessage());
         return new ResponseEntity<>(er.getMessage(), HttpStatus.BAD_REQUEST);
     }
+
+    @ExceptionHandler(FeedbackException.class)
+    public final ResponseEntity handelBuses(FeedbackException ex, WebRequest request){
+        ExceptionResponse er = new ExceptionResponse(ex.getMessage());
+        return new ResponseEntity<>(er.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(CarsException.class)
+    public final ResponseEntity handelBuses(CarsException ex, WebRequest request){
+        ExceptionResponse er = new ExceptionResponse(ex.getMessage());
+        return new ResponseEntity<>(er.getMessage(), HttpStatus.BAD_REQUEST);
+    }
 }

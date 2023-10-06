@@ -21,7 +21,7 @@ public class TuyenXeDto implements Serializable {
     String diemDen;
     String noiDon;
     String noiTra;
-    LocalTime tGianDi;
-    LocalTime tGianDen;
+    String tgDi;
+    String tgDen;
     Float gia;
 }

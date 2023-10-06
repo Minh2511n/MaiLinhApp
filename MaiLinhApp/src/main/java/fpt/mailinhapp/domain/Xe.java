@@ -7,10 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.proxy.HibernateProxy;
 
-import java.util.Date;
-import java.util.LinkedHashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -27,7 +24,7 @@ public class Xe {
     private Integer soGhe;
 
     @Temporal(TemporalType.DATE)
-    @Column(name = "ngay_mua", nullable = false)
+    @Column(name = "ngay_mua", nullable = true)
     private Date ngayMua;
 
     @Temporal(TemporalType.DATE)
@@ -44,13 +41,15 @@ public class Xe {
     @JoinColumn(name = "anh_da_luu_id")
     private AnhDaLuu anhDaLuu;
 
-    @ManyToMany
-    @JoinTable(name = "anhXeChiTiet",
-            joinColumns = @JoinColumn(name = "xe_bien_so_xe"),
-            inverseJoinColumns = @JoinColumn(name = "anhDaLuus_id"))
-    private Set<AnhDaLuu> anhXeChiTiet = new LinkedHashSet<>();
+
 
     @OneToMany(mappedBy = "xe", orphanRemoval = true)
     private Set<ChuyenXe> chuyenXes = new LinkedHashSet<>();
+
+    @ManyToMany
+    @JoinTable(name = "xe_anhDaLuus",
+            joinColumns = @JoinColumn(name = "xe_bien_so_xe"),
+            inverseJoinColumns = @JoinColumn(name = "anhDaLuus_id"))
+    private List<AnhDaLuu> anhDaLuus = new ArrayList<>();
 
 }

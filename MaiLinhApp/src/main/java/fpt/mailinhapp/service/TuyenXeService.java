@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @Service
@@ -19,9 +20,13 @@ public class TuyenXeService {
     @Transactional(rollbackFor = Exception.class)
     public TuyenXeDto createBuses(TuyenXeDto dto){
         TuyenXe entity = new TuyenXe();
-        BeanUtils.copyProperties(dto, entity);
+        BeanUtils.copyProperties(dto, entity, new String[]{"tGianDi", "tGianDen"});
 
+        LocalTime tgDi = LocalTime.parse(dto.getTgDi(), DateTimeFormatter.ofPattern("hh:mm"));
+        LocalTime tgDen = LocalTime.parse(dto.getTgDen(),DateTimeFormatter.ofPattern("hh:mm"));
 
+        entity.setTgDi(tgDi);
+        entity.setTgDen(tgDen);
         var saveEntity = dao.save(entity);
 
         dto.setMaChuyenXe(saveEntity.getMaChuyenXe());
