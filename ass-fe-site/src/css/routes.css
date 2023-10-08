@@ -1,0 +1,341 @@
+
+/* Custom CSS for Routes section */
+.large-image img{
+  width: 1128px;
+  height: 250px;
+  margin-top: -120px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.routes {
+  padding: 50px 0;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.route {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 360px;
+  height: 420px;
+
+}
+
+.Pb span {
+  color: #00613d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: center;
+}
+
+.pb h6 {
+  color: #4a4a4a;
+  line-height: 21px;
+  text-align: center;
+}
+
+.route-info p {
+  z-index: 3;
+  color: #000000;
+  padding: 10px 20px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.route a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.route a:hover {
+  text-decoration: underline;
+}
+
+.route img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.route .overlay-text {
+  position: absolute;
+  top: 70px;
+  left: 15px;
+  z-index: 3;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 20px;
+  /* Sử dụng giá trị cố định cho padding */
+
+}
+
+.route .overlay {
+  position: absolute;
+  display: inline;
+  font-size: 15px;
+  line-height: 24px;
+
+  top: 50px;
+  left: 15px;
+  z-index: 3;
+  color: #fff;
+  padding: 10px 20px;
+  /* Sử dụng giá trị cố định cho padding */
+
+}
+
+.route-info a {
+  color: #05531d;
+  float: left;
+}
+
+.route-info p {
+  z-index: 3;
+  color: #000000;
+  padding: 10px 20px;
+  text-align: left;
+   margin-top: -10px;
+}
+
+
+
+.route-info span {
+  color: #ff1212;
+  font-weight: bold;
+  float: right;
+}
+
+.route-info div:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  /* Thêm border dưới đáy mỗi thẻ p trừ thẻ cuối cùng */
+}
+.futa-stats {
+  display: flex;
+  align-items: flex-start;
+}
+
+.futa-stats-left {
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.futa-stats-left div {
+  text-align:left;
+
+}
+
+.futa-stats-left img {
+  margin-right: 20px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.futa-stats-right {
+  text-align: right;
+  margin-left: auto; /* Di chuyển sang bên phải */
+  margin-right: 20px; /* Khoảng cách từ bên phải */
+}
+
+.futa-stats-right img {
+  width: 532px;
+  height: 326px;
+  margin-top: 80px;
+    
+}
+.futa-quality span{
+  color: #00613d;
+  font-size:28px;
+  font-weight:600;
+  line-height:33px;
+  text-align:center;
+  margin-top: 200px;
+}
+.futa-quality-span{
+  color:#4a4a4a;
+  line-height:21px;
+  text-align:center;
+}
+
+.futa-stats-left p {
+line-height:24px;
+ margin-left: 3cm;
+ color: #637280;
+   line-height:24px;
+    text-align: left;
+    margin-top: -30px;
+}
+.lg{
+  font-size:30px;
+  font-weight:600;
+  line-height:36px;
+
+}
+.sm{
+  display:inline;
+  font-weight:600;
+line-height:24px;
+
+}
+/* CSS cho mỗi ảnh khuyến mãi */
+.promo-item {
+  width: 352px;
+  height: 190px;
+  margin-right: 10px;  /* Khoảng cách giữa các ảnh */
+  transition: transform 0.2s;
+  line-height: 24px;
+
+}
+
+/* CSS cho nhóm ảnh khuyến mãi */
+.promo-group {
+  display: flex;
+  justify-content: center; /* Đặt ảnh bên trái */
+  align-items: center;
+  flex-wrap: wrap; /* Cho phép các ảnh chuyển hàng khi không đủ chiều rộng */
+}
+
+/* Khoảng cách giữa các ảnh */
+.promo-item + .promo-item {
+  margin-left: 10px;
+}
+
+/* Đảm bảo chiều rộng của các ảnh khuyến mãi bằng nhau trên mọi thiết bị */
+@media (max-width: 767px) {
+  .promo-item {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+
+.km span{
+  color:#00613d;
+  font-size:28px;
+  font-weight:600;
+  line-height:33px;
+  text-align:center;
+}
+.dot {
+  border: 5px solid #fffbfb !important; /* Màu viền cho chấm tròn */
+  margin: 0 5px !important; /* Khoảng cách giữa các chấm tròn */
+  border-radius: 60% !important; 
+}
+
+/* CSS cho chấm tròn khi nó được chọn (active) */
+.control-dots .dot.selected {
+  border: 7px solid #f1530fee !important; 
+  border-radius: 20% !important; 
+  margin: 0 5px !important; /* Khoảng cách giữa các chấm tròn */
+}
+.futa-images {
+  display: flex;
+  width: 260px;
+  height: 150px;
+
+  margin-left: 7cm !important;
+  margin-left: auto;
+}
+
+.image-with-text p { 
+  color:#111111;
+  line-height:24px;
+  width: 250px ;
+  font-weight: bold;
+  font-size: 20px;
+}
+.image-with-text img { 
+  width: 130px ;
+  height: 110px;
+
+}
+.vept{
+  color: orangered !important;
+}
+/* CSS cho phần tìm chuyến xe */
+.search-container {
+  background-color: #fcfeff;
+  color: #000000;
+  padding: 5px;
+}
+
+.search-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.form-group {
+  flex-basis: calc(25% - 10px); /* Chia thành 4 cột, cách nhau 10px */
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff8200;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* CSS cho phần chọn số lượng vé */
+.passenger-input {
+  flex-basis: 100%;
+}
+
+/* CSS cho phần tùy chọn nâng cao */
+.search-advanced {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}

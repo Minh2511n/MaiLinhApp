@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang chủ</title>
+    <!-- Thêm Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS */
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar a {
+            color: #fff;
+        }
+
+        .header {
+            background-image: url('your-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .promo {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .route {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .route h3 {
+            margin-top: 0;
+        }
+
+        .route p {
+            margin-bottom: 5px;
+        }
+
+        .route a {
+            color: #007bff;
+        }
+
+        .route img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Trang chủ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vé xe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dịch vụ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Chào mừng đến với Futabus</h1>
+            <p>Đặt vé xe trực tuyến và khám phá thế giới</p>
+        </div>
+    </header>
+
+    <!-- Chương trình khuyến mãi -->
+    <section class="promo">
+        <div class="container">
+            <h2>Chương trình khuyến mãi</h2>
+            <p>Giảm giá 20% cho vé xe đặt trước 7 ngày.</p>
+        </div>
+    </section>
+
+    <!-- Danh sách các tuyến đường -->
+    <section class="routes">
+        <div class="container">
+            <h2>Các tuyến đường phổ biến</h2>
+            <div class="row">
+                <!-- Tuyến đường từ TP. Hồ Chí Minh -->
+                <div class="col-md-4">
+                    <div class="route">
+                        <h3>Tuyến xe từ TP. Hồ Chí Minh</h3>
+                        <img src="your-image-url-1.jpg" alt="Tuyến TP. Hồ Chí Minh">
+                        <p><a href="#">Đà Lạt</a>: 280,000đ</p>
+                        <p>305km - 8 giờ - 01/10/2023</p>
+                        <p><a href="#">Cần Thơ</a>: 165,000đ</p>
+                        <p>166km - 3 giờ 12 phút - 01/10/2023</p>
+                        <p><a href="#">Long Xuyên</a>: 185,000đ</p>
+                        <p>186km - 5 giờ - 01/10/2023</p>
+                    </div>
+                </div>
+                <!-- Tuyến đường từ Đà Lạt -->
+                <div class="col-md-4">
+                    <div class="route">
+                        <h3>Tuyến xe từ Đà Lạt</h3>
+                        <img src="your-image-url-2.jpg" alt="Tuyến Đà Lạt">
+                        <p><a href="#">TP. Hồ Chí Minh</a>: 280,000đ</p>
+                        <p>310km - 8 giờ - 01/10/2023</p>
+                        <p><a href="#">Đà Nẵng</a>: 340,000đ</p>
+                        <p>757km - 17 giờ - 01/10/2023</p>
+                        <p><a href="#">Cần Thơ</a>: 430,000đ</p>
+                        <p>457km - 11 giờ - 01/10/2023</p>
+                    </div>
+                </div>
+                <!-- Tuyến đường từ Đà Nẵng -->
+                <div class="col-md-4">
+                    <div class="route">
+                        <h3>Tuyến xe từ Đà Nẵng</h3>
+                        <img src="your-image-url-3.jpg" alt="Tuyến Đà Nẵng">
+                        <p><a href="#">Đà Lạt</a>: 340,000đ</p>
+                        <p>666km - 17 giờ - 01/10/2023</p>
+                        <p><a href="#">BX An Sương</a>: 400,000đ</p>
+                        <p>966km - 20 giờ - 01/10/2023</p>
+                        <p><a href="#">Nha Trang</a>: 290,000đ</p>
+                        <p>528km - 9 giờ 25 phút - 01/10/2023</p>
+                    </div>
+                </div>
+                <!-- Thêm các tuyến đường khác tại đây -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Thêm Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
