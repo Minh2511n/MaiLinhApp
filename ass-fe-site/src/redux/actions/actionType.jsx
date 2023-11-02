@@ -1,0 +1,10 @@
+
+
+export const ACCOUNT_SET = "ACCOUNT_SET";
+
+
+
+export const COMMON_ERROR_SET = "COMMON_ERROR_SET";
+export const COMMON_MESSAGE_SET = "COMMON_MESSAGE_SET";
+export const COMMON_LOADING_SET = "COMMON_LOADING_SET";
+
