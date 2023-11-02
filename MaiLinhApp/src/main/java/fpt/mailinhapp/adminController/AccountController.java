@@ -13,6 +13,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("api/v1/acc")
 public class AccountController {
@@ -63,3 +64,4 @@ public class AccountController {
         return new ResponseEntity<>(newDto, HttpStatus.OK);
     }
 }
+
