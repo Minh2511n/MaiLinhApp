@@ -5,9 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.proxy.HibernateProxy;
 
-import java.util.LinkedHashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 @Getter
 @Setter
@@ -22,13 +20,7 @@ public class ChuyenXe {
     @Column(name = "so_khach")
     private String soKhach;
 
-    @ManyToOne
-    @JoinColumn(name = "tai_xe")
-    private NhanVien taiXe;
 
-    @ManyToOne
-    @JoinColumn(name = "phu_xe")
-    private NhanVien phuXe;
 
     @ManyToOne
     @JoinColumn(name = "tuyen_xe")
@@ -38,6 +30,12 @@ public class ChuyenXe {
     @ManyToOne
     @JoinColumn(name = "xe")
     private Xe xe;
+
+    @ManyToMany
+    @JoinTable(name = "chuyen_xe_nhanViens",
+            joinColumns = @JoinColumn(name = "chuyenXe_ma_chuyen"),
+            inverseJoinColumns = @JoinColumn(name = "nhanViens_so_cccd"))
+    private List<NhanVien> nhanViens = new ArrayList<>();
 
     @Override
     public final boolean equals(Object o) {

@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Value;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * DTO for {@link fpt.mailinhapp.domain.ChuyenXe}
@@ -17,8 +19,7 @@ import java.io.Serializable;
 public class ChuyenXeDto implements Serializable {
     Integer maChuyen;
     String soKhach;
-    NhanVienDto taiXe;
-    NhanVien phuXe;
+    private List<NhanVienDto> nhanViens = new ArrayList<>();
     TuyenXeDto tuyenXe;
     XeDto xe;
 }

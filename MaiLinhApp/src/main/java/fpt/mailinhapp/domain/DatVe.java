@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Getter
@@ -35,5 +36,17 @@ public class DatVe {
     @JsonIgnore
     @OneToMany(mappedBy = "maVe", orphanRemoval = true)
     private List<VeXeChiTiet> veXeChiTiets = new ArrayList<>();
+
+    @Temporal(TemporalType.DATE)
+    @Column(name = "ngay_dat_ve")
+    private Date ngayDatVe;
+
+    @ManyToOne
+    @JoinColumn(name = "khuyen_mai_ma_khuyen_mai")
+    private KhuyenMai khuyenMai;
+
+    @OneToOne(orphanRemoval = true)
+    @JoinColumn(name = "thanh_toan_id")
+    private ThanhToan thanhToan;
 
 }

@@ -52,4 +52,12 @@ public class Xe {
             inverseJoinColumns = @JoinColumn(name = "anhDaLuus_id"))
     private List<AnhDaLuu> anhDaLuus = new ArrayList<>();
 
+    @OneToOne(orphanRemoval = true)
+    @JoinColumn(name = "thuong_hieu_id")
+    private ThuongHieu thuongHieu;
+
+    @OneToOne(orphanRemoval = true)
+    @JoinColumn(name = "loai_xe_id")
+    private LoaiXe loaiXe;
+
 }

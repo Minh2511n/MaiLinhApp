@@ -1,11 +1,13 @@
 package fpt.mailinhapp.dto;
 
+import fpt.mailinhapp.domain.KhuyenMai;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.Value;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -21,4 +23,6 @@ public class DatVeDto implements Serializable {
     TaiKhoanDto taiKhoan;
     ChuyenXeDto chuyenXe;
     List<VeXeChiTietDto> veXeChiTiets;
+    private Date ngayDatVe;
+    private KhuyenMaiDto khuyenMai;
 }
