@@ -38,3 +38,8 @@
     transform: rotate(360deg);
   }
 }
+.navbar-container{
+  z-index: -1;
+  margin: 0 auto;
+  max-width: 100%;
+}

@@ -1,39 +1,39 @@
 // App.js
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import Navbar from './components/Navbar2';
-import Footer from './components/footer';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar2";
+import Footer from "./components/footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
 import { Provider } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import ContactPage from './components/lienhe';
-import Login from './components/loginand';
-import Lichtrinh from './components/lichtrinh';
-import Trangchu from './components/trangchu';
-import Tracuu from './components/tracuu';
-import Hoadon from './components/hoadon'
-import Loc from './components/loc'
-import Tintuc from './components/tintuc';
-import Lsmuave from './components/lichsumuave';
-import Doimk from './components/doimatkhau';
-import Thongttk from './components/thongtintaikhoan';
-import Mailinhpay from './components/lichsugiaodịch'
-import Vechungtoi from './components/vechungtoi';
+import ContactPage from "./components/lienhe";
+import Login from "./components/loginand";
+import Lichtrinh from "./components/lichtrinh";
+import Trangchu from "./components/trangchu";
+import Tracuu from "./components/tracuu";
+import Hoadon from "./components/hoadon";
+import Loc from "./components/loc";
+import Tintuc from "./components/tintuc";
+import Lsmuave from "./components/lichsumuave";
+import Doimk from "./components/doimatkhau";
+import Thongttk from "./components/thongtintaikhoan";
+import Mailinhpay from "./components/lichsugiaodịch";
+import Vechungtoi from "./components/vechungtoi";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
 
   return (
     <BrowserRouter>
       <div className="App">
-      {showNavbar && <Navbar  />}
+        {showNavbar && <Navbar />}
         <div className="content">
           <Routes>
-           <Route path="/" element={<Trangchu />} /> 
-           <Route path="/timchuyen" element={<Loc />} />
+            <Route path="/" element={<Trangchu />} />
+            <Route path="/timchuyen" element={<Loc />} />
             <Route path="/lienhe" element={<ContactPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/lichtrinh" element={<Lichtrinh />} />
@@ -45,19 +45,18 @@ function App() {
             <Route path="/doimk" element={<Doimk />} />
             <Route path="/thongttk" element={<Thongttk />} />
             <Route path="/Mailinhpay" element={<Mailinhpay />} />
-            <Route path="/hoadon" element={<Hoadon setShowNavbar={setShowNavbar} />} />
+            <Route
+              path="/hoadon"
+              element={<Hoadon setShowNavbar={setShowNavbar} />}
+            />
             {/* Định nghĩa các Route khác ở đây nếu cần */}
-         
           </Routes>
-         
         </div>
-       <br />
-       {showNavbar && <Footer />}
+        <br />
+        {showNavbar && <Footer />}
       </div>
-      </BrowserRouter>
-      
+    </BrowserRouter>
   );
 }
 
 export default App;
-
