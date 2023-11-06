@@ -383,14 +383,6 @@ line-height:24px;
   margin-left: 0; /* Remove margin for the input fields */
 }
 
-.tcx-button{
-  background-color: #ef5222;
-  padding: 10px 20px;
-  border-radius: 20px;
-  margin-bottom: 40px;
-  margin-top: -40px;
-  
-}
 .select-container {
   display: flex;
   align-items: center;
@@ -438,3 +430,47 @@ line-height:24px;
   height: 67px;
  
 }
+.search-form{
+  height: 30vh;
+  position: relative;
+  .tcx-button{
+    position: absolute;
+    background-color: #ef5222;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 20px;
+    bottom: -5.5rem;
+    left: 43%;
+    color: white;
+    font-weight: bolder;
+  }
+  .tcx-button:hover{
+    background-color: white;
+    color: #ef5222;
+    border: solid 1px #ef5222;
+  }
+}
+.ant-tabs{
+  .ant-col{
+    text-align: left;
+
+    .ant-select{
+      width: 100%;
+    }
+    
+ }
+  .location-image{
+  text-align: center;
+  margin: 0;
+    .image{
+      padding-top: 35%;
+      }
+    }
+}
+.ant-space{
+  width: 100%;
+  .ant-picker{
+    width: 100%;
+  }
+}
+

@@ -13,16 +13,18 @@ import "react-toastify/dist/ReactToastify.css";
 import ContactPage from "./components/lienhe";
 import Login from "./components/loginand";
 import Lichtrinh from "./components/lichtrinh";
-import Trangchu from "./components/trangchu";
+import Trangchu from "./components/trangChu/trangchu";
 import Tracuu from "./components/tracuu";
 import Hoadon from "./components/hoadon";
-import Loc from "./components/loc";
+import Loc from "./components/trangChu/loc";
 import Tintuc from "./components/tintuc";
 import Lsmuave from "./components/lichsumuave";
 import Doimk from "./components/doimatkhau";
 import Thongttk from "./components/thongtintaikhoan";
 import Mailinhpay from "./components/lichsugiaodịch";
 import Vechungtoi from "./components/vechungtoi";
+import ThongTin from "./components/trangChu/ThongTin";
+import SeatSelection from "./components/trangChu/loc";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
 
@@ -32,12 +34,14 @@ function App() {
         {showNavbar && <Navbar />}
         <div className="content">
           <Routes>
-            <Route path="/" element={<Trangchu />} />
+            <Route path="/" element={<Trangchu />}>
+              <Route index element={<ThongTin />} />
+              <Route path="timchuyen" element={<SeatSelection />} />
+            </Route>
             <Route path="/timchuyen" element={<Loc />} />
             <Route path="/lienhe" element={<ContactPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/lichtrinh" element={<Lichtrinh />} />
-            <Route path="/trangchu" element={<Trangchu />} />
             <Route path="/tracuu" element={<Tracuu />} />
             <Route path="/tintuc" element={<Tintuc />} />
             <Route path="/vechungtoi" element={<Vechungtoi />} />

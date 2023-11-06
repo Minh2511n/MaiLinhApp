@@ -43,7 +43,7 @@ const ChonCho = () => {
 
   useEffect(() => {
     createData();
-  });
+  }, []);
 
   return (
     <Row>

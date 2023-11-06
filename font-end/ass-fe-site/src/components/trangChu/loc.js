@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
-import "../css/loc.css";
-import money from "../image/save_money.svg";
-import seat from "../image/seat.svg";
-import clock from "../image/clock.svg";
-import pickup from "../image/pickup.svg";
-import station from "../image/station.svg";
+import "../../css/loc.css";
+
+import money from "../../image/save_money.svg";
+import seat from "../../image/seat.svg";
+import clock from "../../image/clock.svg";
+import pickup from "../../image/pickup.svg";
+import station from "../../image/station.svg";
 import { Modal } from "react-bootstrap";
-import Timchuyen from "./timchuyen";
-import baner1 from "../image/baner1.png";
+
+import baner1 from "../../image/baner1.png";
 import { Drawer } from "antd";
-import DatVeForm from "./datVe/DatVeForm";
+import DatVeForm from "../datVe/DatVeForm";
+
 function SeatSelection() {
   const [selectedIcons, setSelectedIcons] = useState([]);
   const [isSeatModalOpen, setIsSeatModalOpen] = useState(false);
@@ -82,12 +84,6 @@ function SeatSelection() {
 
   return (
     <div>
-      <section className="routes">
-        <div className="large-image">
-          <img src={baner1} alt="large" />
-        </div>
-        <Timchuyen />
-      </section>
       <div className="container-loc" style={{ marginLeft: "5cm" }}>
         <div className="title">Bộ lọc tìm kiếm</div>
         <div className="divide"></div>
