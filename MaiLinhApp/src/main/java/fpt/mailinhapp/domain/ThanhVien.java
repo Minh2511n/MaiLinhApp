@@ -20,13 +20,13 @@ public class ThanhVien {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(name = "ho_ten", nullable = false, length = 50)
+    @Column(name = "ho_ten", nullable = true, length = 50)
     private String hoTen;
 
     @Column(name = "dia_chi", length = 100)
     private String diaChi;
 
-    @Column(name = "email", nullable = false, length = 50)
+    @Column(name = "email", nullable = true, length = 50)
     private String email;
 
     @Column(name = "so_dt", nullable = false, length = 11)
