@@ -11,7 +11,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import ContactPage from "./components/lienhe";
-import Login from "./components/loginand";
+import LoginPage from "./components/login/loginand";
 import Lichtrinh from "./components/lichtrinh";
 import Trangchu from "./components/trangChu/trangchu";
 import Tracuu from "./components/tracuu";
@@ -25,41 +25,56 @@ import Mailinhpay from "./components/lichsugiaodịch";
 import Vechungtoi from "./components/vechungtoi";
 import ThongTin from "./components/trangChu/ThongTin";
 import SeatSelection from "./components/trangChu/loc";
+import store from "./redux/store";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        {showNavbar && <Navbar />}
-        <div className="content">
-          <Routes>
-            <Route path="/" element={<Trangchu />}>
-              <Route index element={<ThongTin />} />
-              <Route path="timchuyen" element={<SeatSelection />} />
-            </Route>
-            <Route path="/timchuyen" element={<Loc />} />
-            <Route path="/lienhe" element={<ContactPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/lichtrinh" element={<Lichtrinh />} />
-            <Route path="/tracuu" element={<Tracuu />} />
-            <Route path="/tintuc" element={<Tintuc />} />
-            <Route path="/vechungtoi" element={<Vechungtoi />} />
-            <Route path="/Lsmuave" element={<Lsmuave />} />
-            <Route path="/doimk" element={<Doimk />} />
-            <Route path="/thongttk" element={<Thongttk />} />
-            <Route path="/Mailinhpay" element={<Mailinhpay />} />
-            <Route
-              path="/hoadon"
-              element={<Hoadon setShowNavbar={setShowNavbar} />}
-            />
-            {/* Định nghĩa các Route khác ở đây nếu cần */}
-          </Routes>
+    <Provider store={store}>
+      <BrowserRouter>
+        <div className="App">
+          {showNavbar && <Navbar />}
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Trangchu />}>
+                <Route index element={<ThongTin />} />
+                <Route path="timchuyen" element={<SeatSelection />} />
+              </Route>
+              <Route path="/timchuyen" element={<Loc />} />
+              <Route path="/lienhe" element={<ContactPage />} />
+              <Route path="/login" element={<LoginPage />} />
+              <Route path="/lichtrinh" element={<Lichtrinh />} />
+              <Route path="/tracuu" element={<Tracuu />} />
+              <Route path="/tintuc" element={<Tintuc />} />
+              <Route path="/vechungtoi" element={<Vechungtoi />} />
+              <Route path="/Lsmuave" element={<Lsmuave />} />
+              <Route path="/doimk" element={<Doimk />} />
+              <Route path="/thongttk" element={<Thongttk />} />
+              <Route path="/Mailinhpay" element={<Mailinhpay />} />
+              <Route
+                path="/hoadon"
+                element={<Hoadon setShowNavbar={setShowNavbar} />}
+              />
+              {/* Định nghĩa các Route khác ở đây nếu cần */}
+            </Routes>
+          </div>
+          <br />
+          {showNavbar && <Footer />}
         </div>
-        <br />
-        {showNavbar && <Footer />}
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover={false}
+        theme="light"
+      />
+    </Provider>
   );
 }
 

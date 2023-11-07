@@ -98,3 +98,19 @@
 .text-center a:hover {
   text-decoration: underline;
 }
+
+.ant-tabs{
+  .ant-form{
+    .ant-form-horizontal{
+      .ant-form-item-control{
+        max-width: 100% !important;
+        .input-form{
+          height: 3rem;
+          border-radius: 5px;
+        }
+       }
+       
+    }
+   
+  }
+}
