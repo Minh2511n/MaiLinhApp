@@ -11,9 +11,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import ContactPage from './components/lienhe';
-import Login from './components/loginand';
+import LoginPage from "./components/login/loginand";
 import Lichtrinh from './components/lichtrinh';
-import Trangchu from './components/trangchu';
+import Trangchu from '../src/components/trangchu/trangchu.jsx';
 import Tracuu from './components/tracuu';
 import Hoadon from './components/hoadon'
 import Loc from './components/loc'
@@ -23,10 +23,13 @@ import Doimk from './components/doimatkhau';
 import Thongttk from './components/thongtintaikhoan';
 import Mailinhpay from './components/lichsugiaodịch'
 import Vechungtoi from './components/vechungtoi';
+import { NotificationContainer } from 'react-notifications';
+import store from "./redux/store";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
 
   return (
+    <Provider store={store}>
     <BrowserRouter>
       <div className="App">
       {showNavbar && <Navbar  />}
@@ -35,7 +38,7 @@ function App() {
            <Route path="/" element={<Trangchu />} /> 
            <Route path="/timchuyen" element={<Loc />} />
             <Route path="/lienhe" element={<ContactPage />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/lichtrinh" element={<Lichtrinh />} />
             <Route path="/trangchu" element={<Trangchu />} />
             <Route path="/tracuu" element={<Tracuu />} />
@@ -49,13 +52,13 @@ function App() {
             {/* Định nghĩa các Route khác ở đây nếu cần */}
          
           </Routes>
-         
+          <ToastContainer /> 
         </div>
        <br />
        {showNavbar && <Footer />}
       </div>
       </BrowserRouter>
-      
+      </Provider>
   );
 }
 

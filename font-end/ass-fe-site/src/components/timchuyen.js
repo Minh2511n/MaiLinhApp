@@ -5,11 +5,17 @@ import '../css/routes.css'; // Import file CSS cho phần này
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Thêm CSS cho Carousel
 import { DatePicker } from 'antd';
 import 'antd/dist/antd.css'; 
-
-import { Modal } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { Button, Modal } from 'react-bootstrap';
 import muiten from '../image/switch_location.svg';
 import moment from 'moment';
-function Timchuyen() {
+import withRouter from "../helpers/withRouter";
+function Timchuyen(props) {
+  const { navigate } = props.router;
+  const onClick = () => {
+    navigate("/login");
+  };
+
   const [startDate, setStartDate] = useState(moment());
   const [returnDate, setReturnDate] = useState(null);
 
@@ -31,6 +37,14 @@ function Timchuyen() {
   const toggleTab = (tab) => {
     setActiveTab(tab);
   };
+  useEffect(() => {
+    document.title = 'Tìm Chuyến';
+
+    return () => {
+      document.title = 'Mai Linh TOUR';
+    };
+  }, []);
+
     return (
         <div className="layout flex flex-col ">
         <div className="home-search z-30">
@@ -203,17 +217,17 @@ function Timchuyen() {
               </div>
             </div>
           </div>
-          <a href="/timchuyen">
-          <button className="tcx-button" style={{ width: '200px' }}>
-            Tìm chuyến xe
-          </button>
-        </a>
+          <NavLink to="/timchuyen">
+          <Button className="tcx-button" onClick={onClick}>
+          Tìm chuyến xe
+        </Button>
+        </NavLink>
         </div>
 
       </div>
         );
     }
     
-    export default Timchuyen;
+    export default withRouter(Timchuyen);
     
     

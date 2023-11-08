@@ -65,8 +65,7 @@
 }
 
 .container-loc {
-  width: 360px;
-  min-width: 360px;
+  width: 290px;
   background: #F8F9F9;
   border: 1px solid #EBEDEE;
   font-size: 15px;
@@ -74,7 +73,7 @@
   border-radius: 10px;
   padding: 20px;
   height: 693px;
-  margin-top: -1cm;
+
 }
 
 .title {
@@ -182,7 +181,7 @@
   /* Màu nền cho phần kết quả */
   border-radius: 10px;
   padding: 20px;
-  margin-left: 15cm;
+  margin-left: 13cm;
   margin-top: -19cm;
   width: 900px;
 }

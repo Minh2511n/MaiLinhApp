@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import categoryReducer from "./reducers/categoryReducer";
+import AccountReducer from "./reducers/AccountReducer";
 import commonReducer from "./reducers/commonReducer";
 
 const rootReducer = combineReducers({
-    categoryReducer : categoryReducer,
-    commonReducer: commonReducer,
+  AccountReducer,
+  commonReducer,
 });
-export default rootReducer
+export default rootReducer;

@@ -256,3 +256,6 @@
     padding: 8px 0px;
     text-align: center;
 }
+.img-gh{
+    image-rendering: pixelated
+}

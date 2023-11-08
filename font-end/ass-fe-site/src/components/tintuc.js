@@ -89,7 +89,7 @@ function Tintuc() {
         <div class="tieudiem">
           <div class="square">
             <div class="top-text">Tiêu điểm</div>
-            <div class="bottom-text">MaiLinh Tour</div>
+            <div class="bottom-text-tintuc">MaiLinh Tour</div>
           </div>
         </div>
         <div class="col-md-2">

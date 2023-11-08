@@ -2,13 +2,11 @@ import React from 'react';
 import '../css/footer.css';
 
 import Tdcpl from '../image//footer/Tdcpl (1).png';
-import Adver from '../image//footer/_FUTA_Advertising.svg';
+import Adver from '../image//footer/_Mailinh_Advertising 1.png';
 import facebook from '../image//footer/facebook.svg';
 import salenoti from '../image//footer/logoSaleNoti.png';
-import express from '../image//footer/logo_futa_express.svg';
+import MLGH from '../image//footer/mailinhgiaohang.png';
 import youtube from '../image//footer/youtube.svg';
-import Buslines from '../image//footer/BusLines.svg';
-
 
 
 function Footer() {
@@ -73,23 +71,23 @@ function Footer() {
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Về chúng tôi</a>
+            <a href="#">Về chúng tôi</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Lịch trình</a>
+            <a href="#">Lịch trình</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Tuyển dụng</a>
+            <a href="#">Tuyển dụng</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Tin tức & Sự kiện</a>
+            <a href="#">Tin tức & Sự kiện</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Mạng lưới văn phòng</a>
+            <a href="#">Mạng lưới văn phòng</a>
           </div>
         </div>
         <div className="right-text">
@@ -102,27 +100,26 @@ function Footer() {
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Điều khoản sử dụng</a>
+            <a href="#">Điều khoản sử dụng</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Câu hỏi thường gặp</a>
+            <a href="#">Câu hỏi thường gặp</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Hướng dẫn đặt vé trên Web</a>
+            <a href="#">Hướng dẫn đặt vé trên Web</a>
           </div>
           <div className="h1">
             <div className="boder"></div>
-            <a href="">Hướng dẫn nạp tiền trên App</a>
+            <a href="#">Hướng dẫn nạp tiền trên App</a>
           </div>
         </div>
       </div>
     </div>
     <div className="bottom-footer">
-      <img src={Buslines} alt="" width="264px" height="44px" />
-      <img src={express} alt="" width="264px" height="44px" />
-      <img src={Adver} alt="" width="264px" height="44px" />
+      <img src={Adver} alt="" width="264px" height="44px" style={{marginRight:'0.5cm'}}/>
+      <img className="img-gh" src={MLGH} alt="" width="264px" height="44px"/>
       <img src={Tdcpl} alt="" width="264px" height="44px" />
     </div>
   </div>

@@ -54,7 +54,6 @@
 }
 
 .route a {
-  color: #007bff;
   text-decoration: none;
 }
 
@@ -278,7 +277,7 @@ line-height:24px;
   border-radius: 10px;
   display: flex;
   flex: 1;
-  background-color: transparent; /* Remove the background color for the active tab */
+ 
 }
 
 /* End of custom CSS for the tabs */
@@ -384,12 +383,20 @@ line-height:24px;
 }
 
 .tcx-button{
-  background-color: #ef5222;
-  padding: 10px 20px;
+  background-color: #ef5222 !important;
+  width: 10rem;
+  height: 3rem;
   border-radius: 20px;
-  margin-bottom: 40px;
-  margin-top: -40px;
-  
+  left: 43%;
+  margin-top: -0.5cm;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 1cm;
+}
+.tcx-button:hover{
+  background-color: white !important;
+  color: #ef5222 ;
+  border: solid 1px #ef5222 !important;
 }
 .select-container {
   display: flex;

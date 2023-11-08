@@ -3,10 +3,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #0C6D39;
+  /* background-color: #01944b; */
   background-image:url("https://futabus.vn/images/banners/home_banner.png");
   padding: 10px 20px; /* Giảm padding để tránh quá nhiều khoảng trống */
-  width: 1520px;
+  width: 100%;
   height: 200px ;
   padding: 10px 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
