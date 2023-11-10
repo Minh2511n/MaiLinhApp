@@ -1,6 +1,5 @@
 package fpt.mailinhapp.clientController;
 
-import fpt.mailinhapp.dto.TaiKhoanDto;
 import fpt.mailinhapp.dto.ThanhVienDto;
 import fpt.mailinhapp.service.CustomerService;
 import fpt.mailinhapp.service.MapValidationErrorService;
@@ -14,9 +13,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @CrossOrigin
 @RequestMapping("api/v2/cus")
-public class CustomerController {
+public class CustomerCLController {
     @Autowired
     CustomerService service;
+    @Autowired
     MapValidationErrorService errorService;
 
     @PatchMapping("/{id}")

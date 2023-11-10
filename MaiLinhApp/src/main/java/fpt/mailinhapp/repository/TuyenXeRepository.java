@@ -8,4 +8,5 @@ import java.time.LocalTime;
 import java.util.List;
 
 public interface TuyenXeRepository extends JpaRepository<TuyenXe, Integer> {
+
 }

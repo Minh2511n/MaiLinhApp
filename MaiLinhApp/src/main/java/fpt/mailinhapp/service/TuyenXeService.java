@@ -1,6 +1,7 @@
 package fpt.mailinhapp.service;
 
 import fpt.mailinhapp.domain.TuyenXe;
+import fpt.mailinhapp.dto.SelectResq;
 import fpt.mailinhapp.dto.TuyenXeDto;
 import fpt.mailinhapp.exception.BusesException;
 import fpt.mailinhapp.repository.TuyenXeRepository;
@@ -58,4 +59,14 @@ public class TuyenXeService {
         return dao.findAll();
     }
 
+    public List<SelectResq> loadLocation(){
+        List<TuyenXe> listTuyen = dao.findAll();
+
+        List<SelectResq> listLocation = listTuyen.stream().map((item)->{
+            SelectResq slt = new SelectResq(item.getDiemDi(),item.getDiemDi());
+            return slt;
+        }).distinct().collect(Collectors.toList());
+
+        return listLocation;
+    }
 }

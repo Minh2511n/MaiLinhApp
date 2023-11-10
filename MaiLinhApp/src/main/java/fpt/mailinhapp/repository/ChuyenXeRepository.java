@@ -7,6 +7,8 @@ import java.time.LocalTime;
 import java.util.List;
 
 public interface ChuyenXeRepository extends PagingAndSortingRepository<ChuyenXe, Integer> {
-    List<ChuyenXe> findByTuyenXe(String diemDi, String diemDen, LocalTime tgDi);
+    List<ChuyenXe> findByTuyenXe_DiemDiLikeAndTuyenXe_DiemDenLikeAndTuyenXe_TgDi(String diemDi, String diemDen, LocalTime tgDi);
+
+
 
 }

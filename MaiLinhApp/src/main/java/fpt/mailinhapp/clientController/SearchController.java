@@ -6,15 +6,13 @@ import fpt.mailinhapp.dto.ReqTimMotChieu;
 import fpt.mailinhapp.dto.Return2List;
 import fpt.mailinhapp.service.ChuyenXeService;
 import fpt.mailinhapp.service.MapValidationErrorService;
+import fpt.mailinhapp.service.TuyenXeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,6 +22,8 @@ import java.util.List;
 public class SearchController {
     @Autowired
     ChuyenXeService service;
+    @Autowired
+    TuyenXeService tuyenXeService;
     @Autowired
     MapValidationErrorService errorService;
 
@@ -54,5 +54,11 @@ public class SearchController {
         Return2List newList = new Return2List(dto,dto2);
 
         return new ResponseEntity<>(newList, HttpStatus.OK);
+    }
+
+    @GetMapping
+    public ResponseEntity loadLocation(){
+        var data = tuyenXeService.loadLocation();
+        return new ResponseEntity<>(data,HttpStatus.OK);
     }
 }
