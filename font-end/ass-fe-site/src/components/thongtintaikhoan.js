@@ -23,7 +23,7 @@ function Thongtintaikhoan() {
             <Menudangnhap />
 
             {/* Password Reset Form */}
-            <div className="thong-tin-tai-khoan"style={{marginTop:'30px'}}>
+            <div className="thong-tin-tai-khoan"style={{marginTop:'30px', marginLeft:'12cm'}}>
                 <div className="account-information-form">
                     <div className="top-text">Thông tin tài khoản</div>
                     <div className="bottom-text">Quản lý thông tin hồ sơ để bảo mật tài khoản</div>

@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom';
 // Import CSS cho DatePicker
 function Menudangnap() {
     return (
-        <div className="sidebar-dat-lai-mat-khau" style={{ marginTop: '1cm' }}>
+        <div className="sidebar-dat-lai-mat-khau" style={{ marginTop: '1cm'}}>
             <ul>
                 <li>
                     <NavLink exact to="/Mailinhpay">

@@ -10,11 +10,11 @@ function Lichsimuave() {
     };
     return (
         <div className="border">
-            <div className="">
+            <div className=""style={{height:'600px'}}>
                 <div className="mr-1 p-3 mr-0 p-0">
                     <div className="grid grid-col-12 gap-0 gap-8">
                     <Menudangnhap/>
-                        <div className="col-span-9 mt-6" style={{marginLeft:'2cm'}}>
+                        <div className="col-span-9 mt-6" style={{marginLeft:'12cm', marginTop:'1cm'}}>
                             <div>
                                 <div className="row" style={{ height: '100px', display: 'flex' }}>
                                     <div className="col conten">

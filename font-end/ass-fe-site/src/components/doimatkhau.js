@@ -49,7 +49,7 @@ function PasswordResetPage() {
          <Menudangnhap/>
 
         {/* Form đặt lại mật khẩu */}
-        <div className="dat-lai-mat-khau">
+        <div className="dat-lai-mat-khau" style={{marginLeft:'10cm'}}>
           <div className="password-reset-form">
             <div className="top-text">Đặt lại mật khẩu</div>
             <div className="bottom-text">

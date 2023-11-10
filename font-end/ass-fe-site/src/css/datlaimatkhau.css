@@ -15,6 +15,10 @@
     height: 536px;
     margin-left: 115px;
     margin-top: 41px;
+    position:absolute;
+    left:50px;
+    right:300px;
+    top:200px;
 }
 
 .sidebar-dat-lai-mat-khau ul {

@@ -13,9 +13,8 @@ import withRouter from "../helpers/withRouter";
 function Timchuyen(props) {
   const { navigate } = props.router;
   const onClick = () => {
-    navigate("/login");
+    navigate("/timchuyen");
   };
-
   const [startDate, setStartDate] = useState(moment());
   const [returnDate, setReturnDate] = useState(null);
 
@@ -23,13 +22,6 @@ function Timchuyen(props) {
     // So sánh current với ngày hiện tại, nếu current trước ngày hiện tại thì trả về true (vô hiệu hóa), ngược lại trả về false (có thể chọn)
     return current.isBefore(moment().startOf('day'));
   };
-
-
-  // const isValidDate = (current) => {
-  //   const today = moment().startOf('day');
-  //   return current.isSameOrAfter(today);
-  // };
-
   const { RangePicker } = DatePicker;
 
   const [activeTab, setActiveTab] = useState('motchieu');
@@ -83,28 +75,28 @@ function Timchuyen(props) {
                   {/* Content for "Một chiều" tab */}
                   <div className="flex justify-center">
                     <div className="flex-1" style={{ marginRight: '-0.3cm' }}>
-                      <label className="label2" style={{ marginRight: "4cm" }} >Điểm đi</label> <br />
+                      <label className="label2" style={{ marginRight: "6cm" }} >Điểm đi</label> <br />
                       <input
                         type="text"
                         className="input-search item-start form-control"
                         placeholder="Chọn điểm đi"
-                        style={{ width: "258px" }}
+                        style={{ width: "350px" }}
                       />
                     </div>
                     <img className="location-image" src={muiten} alt="" style={{ marginBottom: "-20px" }} />
                     <div className="flex-1" style={{ marginLeft: '-0.3cm' }}>
-                      <label className="label2" style={{ marginRight: "4cm" }}>Điểm đến</label> <br />
+                      <label className="label2" style={{ marginRight: "6cm" }}>Điểm đến</label> <br />
                       <input
                         type="text"
                         className="input-search item-start form-control"
                         placeholder="Chọn điểm đi"
-                        style={{ width: "258px" }}
+                        style={{ width: "350px" }}
                       />
                     </div>
                   </div>
                   <div className="flex flex-2">
                     <div className="flex-1" >
-                      <label className="label2" style={{ marginRight: "4cm" }}>Ngày đi</label> <br />
+                      <label className="label2" style={{ marginRight: "6cm" }}>Ngày đi</label> <br />
                       <div className="form-outline datetimepicker" style={{height:"67px"}}>
                       <DatePicker
                       value={startDate}
@@ -116,27 +108,12 @@ function Timchuyen(props) {
                       className="input-search item-start form-control"
                       id="datepicker"
                       disabledDate={disabledDate}
-                      style={{ width: '205px' }}
+                      style={{ width: '320px' }}
                       picker="date"
             
                     />
-                    
-                        
                       </div>
                     </div>
-                    <div className="flex-1">
-                      <label className="label2" style={{ marginRight: "4cm" }}>Số vé</label> <br />
-                      <div className="select-container">
-                        <select className="custom-select" style={{ width: "258px", height: "67px" }}>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                        </select>
-                      </div>
-
-                    </div>
-
                   </div>
                 </div>
               </div>
@@ -149,29 +126,31 @@ function Timchuyen(props) {
                   {/* Content for "Khứ hồi" tab */}
                   <div className="flex justify-center">
                     <div className="flex-1" style={{ marginRight: '-0.3cm' }}>
-                      <label className="label2" style={{ marginRight: "4cm" }}>Điểm đi</label> <br />
+                      <label className="label2" style={{ marginRight: "6cm" }}>Điểm đi</label> <br />
                       <input
                         type="text"
                         className="input-search item-start form-control"
                         placeholder="Chọn điểm đi"
+                        style={{ width: '350px' }}
                       />
                     </div>
                     <img className="location-image" src={muiten} alt="" style={{ marginBottom: "-20px" }} />
                     <div className="flex-1" style={{ marginLeft: '-0.3cm' }}>
-                      <label className="label2" style={{ marginRight: "4cm" }}>Điểm đến</label> <br />
+                      <label className="label2" style={{ marginRight: "6cm" }}>Điểm đến</label> <br />
                       <input
                         type="text"
                         className="input-search item-start form-control"
                         placeholder="Chọn điểm đi"
+                        style={{ width: '350px' }}
                       />
                     </div>
                   </div>
                   <div className="flex flex-2">
                     <div className="flex-1">
-                      <label className="label2" style={{ marginRight: "100px" }}>Ngày đi</label> <br />
+                      <label className="label2" style={{ marginRight: "6cm" }}>Ngày đi</label> <br />
                       <div className="form-outline datetimepicker">
-                        <DatePicker
-                        value={startDate}
+                        <DatePicker.RangePicker
+                       
                         onChange={(date) => setStartDate(date)} // Cập nhật trạng thái startDate khi người dùng chọn một ngày
                         format="DD/MM/YYYY"
                         showTimeSelect
@@ -179,49 +158,20 @@ function Timchuyen(props) {
                         className="input-search item-start form-control"
                         id="datepicker"
                         disabledDate={disabledDate}
-                        style={{ width: '205px' }}
+                        style={{ width: '320px'}}
+                        placeholder={["ngay di", "ngay ve"]}
                         />
-                        
                       </div>
                     </div>
                     
-                    <div className="flex-1" style={{ width: "205px" }}>
-                      <label className="label2" style={{ marginRight: "100px" }}>Ngày về</label> <br />
-                      <DatePicker
-                        selected={returnDate}
-                        onChange={(date) => setReturnDate(date)}
-                        format="DD/MM/YYYY"
-                        showTimeSelect
-                        timeFormat="HH:mm:ss"
-                        className="input-search item-start form-control"
-                        id="datepicker"
-                        disabledDate={disabledDate}
-                        style={{ width: '205px' }}
-                      />
-                      
-                    </div>
-                    <div className="flex-1" style={{ marginLeft: "10px" }}>
-                      <label className="label2" style={{ marginRight: "20px" }}>Số vé</label> <br />
-                      <div className="select-container">
-                        <select className="custom-select" style={{ width: "96px", height: "67px" }}>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                        </select>
-                      </div>
-
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <NavLink to="/timchuyen">
           <Button className="tcx-button" onClick={onClick}>
           Tìm chuyến xe
         </Button>
-        </NavLink>
         </div>
 
       </div>

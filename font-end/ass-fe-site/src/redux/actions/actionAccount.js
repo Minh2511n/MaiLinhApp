@@ -5,14 +5,12 @@ import { NotificationContainer, NotificationManager } from 'react-notifications'
 import 'react-notifications/lib/notifications.css';
 
 const service = new AccountService();
-
 export const createAccount = (account, navigate) => async (dispatch) => {
   try {
     const res = await service.RegAccount(account);
     console.log(res.data);
     if (res.status === 201) {
       if (res.data) {
-        // Kiểm tra res.data trước khi truy cập
         dispatch({
           type: ACCOUNT_SET,
           payload: res.data,
@@ -22,7 +20,7 @@ export const createAccount = (account, navigate) => async (dispatch) => {
       } else {
         toast.error("Không có dữ liệu trả về từ máy chủ");
       }
-      navigate("/thongttk");
+      navigate("/");
      
     }
   } catch (error) {
@@ -37,21 +35,73 @@ export const login = (account, navigate) => async (dispatch) => {
     console.log(res.data);
     if (res.status === 202) {
       if (res.data) {
-        // Kiểm tra res.data trước khi truy cập
         dispatch({
           type: ACCOUNT_SET,
           payload: res.data,
         });
-        toast.success("Đăng nhâp thành công");
+        // toast.success("Đăng nhâp thành công");
+        toast.success('Đăng nhập thành công', {
+          // position: "top-right",
+          position:"top-right",
+         reverseOrder: false,
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+          });
+          localStorage.setItem("username", res.data.tenTaiKhoan);
 
-       
-      } else {
-        toast.error("Không có dữ liệu trả về từ máy chủ");
+          navigate("/thongttk");
       }
-      navigate("/thongttk");
     }
   } catch (error) {
-    NotificationManager.error('Không có dữ liệu trả về từ máy chủ','Thông báo', 2000);
+    toast.error('Không có dữ liệu trả về từ máy chủ!', {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      backgroundColor: "#ff0000", 
+      });
 
+  }
+};
+export const logout = (account, navigate) => async (dispatch) => {
+  try {
+    
+    localStorage.removeItem("username");
+    dispatch({
+      type: ACCOUNT_SET,
+      payload: null,
+    });
+
+    toast.success('Đăng xuất thành công', {
+      position: "top-right",
+      autoClose: 1000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      style: {
+        border: '1px solid black',
+        padding: '16px',
+        color: 'yellow',
+        backgroundColor: "black",
+      },
+    
+    }
+    );
+
+
+  } catch (error) {
+    // Xử lý lỗi nếu cần.
+    console.error(error);
   }
 };

@@ -3,9 +3,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background-color: #01944b; */
   background-image:url("https://futabus.vn/images/banners/home_banner.png");
-  padding: 10px 20px; /* Giảm padding để tránh quá nhiều khoảng trống */
+  padding: 10px 20px;
   width: 100%;
   height: 200px ;
   padding: 10px 20px;
@@ -29,13 +28,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 0; /* Loại bỏ margin mặc định của danh sách ul */
-  padding: 0; /* Loại bỏ padding mặc định của danh sách ul */
+  margin: 0; 
+  padding: 0;
 }
 
 #navbar li {
   list-style: none;
-  margin: 0; /* Loại bỏ margin mặc định của mỗi mục trong danh sách */
+  margin: 0;
   padding: 0 20px;
   position: relative;
   font-size:20px;
@@ -45,9 +44,6 @@ nav {
  
 
 }
-
-/* Các phần tử nằm bên phải */
-/* Các mục menu nằm bên trái */
 #navbar li {
   margin-left: 20px; /* Khoảng cách giữa các mục menu */
 }
@@ -59,7 +55,7 @@ nav {
 }
 
 
-#navbar li a:hover::after,
+/* #navbar li a:hover::after, */
 #navbar li a.active::after {
   content: "";
   margin-bottom: -0.2cm;
@@ -118,8 +114,8 @@ nav {
   background-color: #ccc;
   color: #333;
   cursor: pointer;
-  border: none; /* Loại bỏ đường viền của nút */
-  padding: 12px; /* Khoảng cách bên trong nút */
+  border: none; 
+  padding: 12px; 
   font-size: 18px;
 }
 
@@ -129,8 +125,8 @@ nav {
 
 .modal-content {
   background-color: #fefefe;
-  width: 50%; /* Đặt chiều rộng của form là 33% của màn hình */
-  padding: 20px; /* Tăng khoảng trắng xung quanh nội dung form */
+  width: 50%; 
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -146,18 +142,6 @@ nav {
   font-size: 30px;
   color: red;
 }
-
-/* input[type="text"],
-input[type="password"],
-button {
-  width: 100%; 
-  margin-bottom: 10px; 
-  padding: 10px;
-  font-size: 18px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-} */
-
 button {
   background-color: #007bff;
   color: #fff;
