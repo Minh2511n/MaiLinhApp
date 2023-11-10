@@ -1,6 +1,7 @@
 package fpt.mailinhapp.clientController;
 
 import fpt.mailinhapp.domain.VaiTro;
+import fpt.mailinhapp.dto.AccountReg;
 import fpt.mailinhapp.dto.TaiKhoanDto;
 import fpt.mailinhapp.dto.ThanhVienDto;
 import fpt.mailinhapp.service.CustomerService;
@@ -25,18 +26,18 @@ public class AccountCLController {
     CustomerService customerService;
 
     @PostMapping("reg")
-    public ResponseEntity createAcc(@Validated @RequestBody TaiKhoanDto dto, BindingResult result){
+    public ResponseEntity createAcc(@Validated @RequestBody AccountReg dto, BindingResult result){
         ResponseEntity error = errorService.mapValidationField(result);
 
         if(error != null){
             return error;
         }
-        dto.setVaiTro(VaiTro.ThanhVien);
-        var newDto = service.insertAccount(dto);
+        TaiKhoanDto tkDto = new TaiKhoanDto(dto.getUsername(), dto.getPassword(), VaiTro.ThanhVien);
+        var newDto = service.insertAccount(tkDto);
 
         ThanhVienDto tvDto = new ThanhVienDto();
-        tvDto.setTaiKhoan(dto);
-        tvDto.setSoDT(dto.getTenTaiKhoan());
+        tvDto.setSoDT(dto.getUsername());
+        tvDto.setHoTen(dto.getName());
         customerService.insertCustomers(tvDto);
 
         return new ResponseEntity<>(newDto, HttpStatus.CREATED);
@@ -52,4 +53,6 @@ public class AccountCLController {
 
         return new ResponseEntity<>(newDto,HttpStatus.ACCEPTED);
     }
+
+
 }

@@ -7,6 +7,8 @@ import org.hibernate.proxy.HibernateProxy;
 
 import java.sql.Time;
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Getter
@@ -16,8 +18,8 @@ import java.util.Objects;
 public class TuyenXe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ma_chuyen_xe", nullable = false)
-    private Integer maChuyenXe;
+    @Column(name = "ma_Tuyen_xe", nullable = false)
+    private Integer maTuyenXe;
 
     @Column(name = "diem_di")
     private String diemDi;
@@ -28,8 +30,7 @@ public class TuyenXe {
     @Column(name = "noi_don")
     private String noiDon;
 
-    @Column(name = "noi_tra")
-    private String noiTra;
+
 
     @Column(name = "tgian_di")
     private LocalTime tgDi;
@@ -40,5 +41,7 @@ public class TuyenXe {
     @Column(name = "gia")
     private Float gia;
 
+    @OneToMany(mappedBy = "tuyenXe", orphanRemoval = true)
+    private List<NoiTra> noiTras = new ArrayList<>();
 
 }

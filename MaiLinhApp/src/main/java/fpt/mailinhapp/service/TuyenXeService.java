@@ -11,7 +11,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class TuyenXeService {
@@ -29,7 +31,7 @@ public class TuyenXeService {
         entity.setTgDen(tgDen);
         var saveEntity = dao.save(entity);
 
-        dto.setMaChuyenXe(saveEntity.getMaChuyenXe());
+        dto.setMaTuyenXe(saveEntity.getMaTuyenXe());
 
         return dto;
     }
@@ -55,4 +57,5 @@ public class TuyenXeService {
     public List<TuyenXe> findAll() {
         return dao.findAll();
     }
+
 }
