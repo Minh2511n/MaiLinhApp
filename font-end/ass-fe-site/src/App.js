@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ContactPage from './components/lienhe';
 import LoginPage from "./components/login/loginand";
 import Lichtrinh from './components/lichtrinh';
-import Trangchu from '../src/components/trangchu/trangchu.jsx';
+import Trangchu from "./components/trangChu/trangchu";
 import Tracuu from './components/tracuu';
 import Loc from './components/loc'
 import Tintuc from './components/tintuc';
@@ -23,6 +23,8 @@ import Thongttk from './components/thongtintaikhoan';
 import Mailinhpay from './components/lichsugiaodịch'
 import Vechungtoi from './components/vechungtoi';
 import { NotificationContainer } from 'react-notifications';
+import ThongTin from "./components/trangChu/ThongTin";
+import SeatSelection from "./components/trangChu/loc";
 import store from "./redux/store";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -34,8 +36,11 @@ function App() {
           {showNavbar && <Navbar />}
           <div className="content">
             <Routes>
-              <Route path="/" element={<Trangchu />} />
-              <Route path="/timchuyen" element={<Loc />} />
+            <Route path="/" element={<Trangchu />}>
+            <Route index element={<ThongTin />} />
+            <Route path="timchuyen" element={<SeatSelection />} />
+          </Route>
+             
               <Route path="/lienhe" element={<ContactPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/lichtrinh" element={<Lichtrinh />} />

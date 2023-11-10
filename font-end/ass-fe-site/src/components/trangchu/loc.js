@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
-import "../css/loc.css";
-import money from "../image/save_money.svg";
-import seat from "../image/seat.svg";
-import clock from "../image/clock.svg";
-import pickup from "../image/pickup.svg";
-import station from "../image/station.svg";
+import "../../css/loc.css";
+
+import money from "../../image/save_money.svg";
+import seat from "../../image/seat.svg";
+import clock from "../../image/clock.svg";
+import pickup from "../../image/pickup.svg";
+import station from "../../image/station.svg";
 import { Modal } from "react-bootstrap";
 
-import baner1 from "../image/baner1.png";
+import baner1 from "../../image/baner1.png";
 import { Drawer } from "antd";
-import DatVeForm from "./datVe/DatVeForm";
+import DatVeForm from "../datVe/DatVeForm";
+
 function SeatSelection() {
   const [selectedIcons, setSelectedIcons] = useState([]);
   const [isSeatModalOpen, setIsSeatModalOpen] = useState(false);
@@ -28,22 +30,60 @@ function SeatSelection() {
     }
   };
 
+  const closeSeatModal = () => {
+    setIsSeatModalOpen(false);
+  };
 
   const handleSeatModal = (trip) => {
     setCurrentTrip(trip);
     setIsSeatModalOpen(true);
   };
+  const handleSeatSelection = (seat, trip) => {
+    const updatedSelectedSeats = new Set(selectedSeats);
+    toggleSeatSelection(updatedSelectedSeats, seat);
+    setSelectedSeats(updatedSelectedSeats);
+    setCurrentTrip(trip);
+  };
 
+  const toggleSeatSelection = (selectedSeats, seat) => {
+    if (selectedSeats.has(seat)) {
+      selectedSeats.delete(seat);
+    } else {
+      selectedSeats.add(seat);
+    }
+  };
 
+  const selectSeats = () => {
+    if (selectedSeats.size > 0) {
+      alert("Đã chọn các ghế: " + Array.from(selectedSeats).join(", "));
+      closeSeatModal();
+    } else {
+      alert("Vui lòng chọn ít nhất một ghế.");
+    }
+  };
+
+  // Hàm tạo sơ đồ ghế cho từng chuyến
+  const createSeatMap = (trip) => {
+    const seats = [];
+
+    for (let i = 1; i <= 24; i++) {
+      seats.push(
+        <div
+          key={i}
+          className={`seat ${selectedSeats.has(i) ? "selected-loc" : ""}`}
+          onClick={() => handleSeatSelection(i)}
+          data-chuyenxe={trip}
+        >
+          {i}
+        </div>
+      );
+    }
+
+    return seats;
+  };
 
   return (
     <div>
-      <section className="routes">
-        <div className="large-image">
-          <img src={baner1} alt="large" />
-        </div>
-       
-      </section>
       <div className="container-loc" style={{ marginLeft: "5cm" }}>
         <div className="title">Bộ lọc tìm kiếm</div>
         <div className="divide"></div>

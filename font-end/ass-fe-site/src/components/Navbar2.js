@@ -22,6 +22,7 @@ import withRouter from '../helpers/withRouter';
 function Navbar(props) {
  const {navigate} = props.router;
 
+
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dispatch = useDispatch();
   const loggedInUser = useSelector((state) => state.AccountReducer.loggedInUser);
@@ -32,9 +33,11 @@ function Navbar(props) {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+
   const handleLogout = () => {
     dispatch(logout(navigate));
   };
+  
   useEffect(() => {
     setIsDropdownOpen((loggedInUser || account) && user !== null);
     return () => {
@@ -108,9 +111,9 @@ function Navbar(props) {
             <NavLink exact to="/doimk">
               <img src={pass} alt="Đặt lại mật khẩu" /> Đặt lại mật khẩu
             </NavLink>
-            <NavLink onClick={handleLogout}>
+            <a onClick={handleLogout}>
               <img src={log} alt="Đăng xuất" /> Đăng xuất
-            </NavLink>
+            </a>
           </div>
         )}
       </li>

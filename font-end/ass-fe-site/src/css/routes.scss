@@ -54,6 +54,7 @@
 }
 
 .route a {
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -277,7 +278,7 @@ line-height:24px;
   border-radius: 10px;
   display: flex;
   flex: 1;
- 
+  background-color: transparent; /* Remove the background color for the active tab */
 }
 
 /* End of custom CSS for the tabs */
@@ -382,22 +383,6 @@ line-height:24px;
   margin-left: 0; /* Remove margin for the input fields */
 }
 
-.tcx-button{
-  background-color: #ef5222 !important;
-  width: 10rem;
-  height: 3rem;
-  border-radius: 20px;
-  left: 43%;
-  margin-top: -0.5cm;
-  color: white;
-  font-weight: bolder;
-  margin-bottom: 1cm;
-}
-.tcx-button:hover{
-  background-color: white !important;
-  color: #ef5222 ;
-  border: solid 1px #ef5222 !important;
-}
 .select-container {
   display: flex;
   align-items: center;
@@ -444,4 +429,75 @@ line-height:24px;
   width: 205px;
   height: 67px;
  
+}
+.search-form{
+  height: 30vh;
+  position: relative;
+  .tcx-button{
+    position: absolute;
+    background-color: #ef5222;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 20px;
+    left: 43%;
+    color: white;
+    font-weight: bolder;
+    margin-top: 0.5cm;
+  
+  }
+  .tcx-button:hover{
+    background-color: white;
+    color: #ef5222;
+    border: solid 1px #ef5222;
+    
+  }
+}
+.ant-tabs{
+  .ant-col{
+    text-align: left;
+
+    .ant-select{
+      width: 100%;
+    }
+    
+ }
+  .location-image{
+  text-align: center;
+  margin: 0;
+    .image{
+      padding-top: 35%;
+     
+      }
+    }
+}
+.ant-space{
+  width: 100%;
+  .ant-picker{
+    width: 100%;
+  }
+}
+
+/*timf chuyen -------------------------*/
+.ant-select-selector {
+  height: 70px !important;
+  width: 350px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+.ant-picker-range ,
+.ant-picker
+{
+  height: 70px !important;
+  width: 320px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 10px !important;
+  padding: 12px 25px !important;
+}
+.ant-select-arrow{
+  margin-right: -1cm;
+}
+.ant-select-selection-placeholder{
+  margin-left: -0.2cm;
+  margin-top: 0.2cm;
 }

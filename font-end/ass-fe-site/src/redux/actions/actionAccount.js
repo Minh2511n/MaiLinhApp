@@ -72,9 +72,8 @@ export const login = (account, navigate) => async (dispatch) => {
 
   }
 };
-export const logout = (account, navigate) => async (dispatch) => {
+export const logout = (navigate) => async (dispatch) => {
   try {
-    
     localStorage.removeItem("username");
     dispatch({
       type: ACCOUNT_SET,
@@ -95,11 +94,10 @@ export const logout = (account, navigate) => async (dispatch) => {
         color: 'yellow',
         backgroundColor: "black",
       },
-    
-    }
-    );
+    });
 
-
+    // Chuyển hướng về trang chủ
+    navigate('/trangchu');
   } catch (error) {
     // Xử lý lỗi nếu cần.
     console.error(error);
