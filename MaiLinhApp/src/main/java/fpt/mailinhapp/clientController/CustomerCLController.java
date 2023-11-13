@@ -20,7 +20,7 @@ public class CustomerCLController {
     MapValidationErrorService errorService;
 
     @PatchMapping("/{id}")
-    public ResponseEntity updateUser(@PathVariable Long id, @Validated @RequestBody ThanhVienDto dto, BindingResult result){
+    public ResponseEntity updateUser(@PathVariable String id, @Validated @RequestBody ThanhVienDto dto, BindingResult result){
         ResponseEntity error = errorService.mapValidationField(result);
 
         if(error != null){
@@ -30,6 +30,11 @@ public class CustomerCLController {
         var newDto = service.updateCustomers(id, dto);
 
         return new ResponseEntity<>(newDto, HttpStatus.OK);
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity loadData(@PathVariable String id){
+        return new ResponseEntity<>(service.findById(id), HttpStatus.OK);
     }
 
 }

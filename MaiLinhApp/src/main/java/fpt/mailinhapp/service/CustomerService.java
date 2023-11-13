@@ -25,26 +25,14 @@ public class CustomerService {
     FileStorageService imgService;
 
     @Transactional(rollbackFor = Exception.class)
-    public ThanhVienDto insertCustomers(ThanhVienDto dto){
-        ThanhVien entity = new ThanhVien();
-        BeanUtils.copyProperties(dto, entity);
+    public void insertCustomers(ThanhVien dto){
 
-        if(dto.getAnhDaLuu() != null){
-            AnhDaLuu img = new AnhDaLuu();
-            BeanUtils.copyProperties(dto.getAnhDaLuu(), img);
-            var saveImg = imgDao.save(img);
-            BeanUtils.copyProperties(saveImg, dto.getAnhDaLuu());
-            entity.setAnhDaLuu(saveImg);
-        }
 
-        var saveCus = dao.save(entity);
-        dto.setId(saveCus.getId());
-
-        return dto;
+         dao.save(dto);
     }
 
     @Transactional(rollbackFor = Exception.class)
-    public ThanhVienDto updateCustomers(Long id, ThanhVienDto dto){
+    public ThanhVienDto updateCustomers(String id, ThanhVienDto dto){
         var found = dao.findById(id).orElseThrow(()-> new CustomerException("Thành viên không tồn tại"));
         String[] ignoreFields = new String[]{"ngayTao","anhDaLuu"};
 
@@ -69,13 +57,12 @@ public class CustomerService {
         }
 
         var saveEntity = dao.save(found);
-
-        dto.setId(found.getId());
+        dto.setId(saveEntity.getId());
         return dto;
     }
 
     @Transactional(rollbackFor = Exception.class)
-    public void deleteCus(Long id){
+    public void deleteCus(String id){
         var found = dao.findById(id).orElseThrow(()->new CustomerException("Thành viên không tồn tại"));
 
         if(found.getAnhDaLuu() != null){
@@ -88,5 +75,12 @@ public class CustomerService {
 
     public List findAll() {
         return (List) dao.findAll();
+    }
+
+    public ThanhVienDto findById(String id){
+        var found = dao.findById(id).orElseThrow(() -> new CustomerException("Thành viên không tồn tại"));
+        ThanhVienDto dto = new ThanhVienDto();
+        BeanUtils.copyProperties(found,dto);
+        return dto;
     }
 }

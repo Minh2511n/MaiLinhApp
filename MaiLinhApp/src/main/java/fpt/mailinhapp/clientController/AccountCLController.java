@@ -1,5 +1,6 @@
 package fpt.mailinhapp.clientController;
 
+import fpt.mailinhapp.domain.ThanhVien;
 import fpt.mailinhapp.domain.VaiTro;
 import fpt.mailinhapp.dto.AccountReg;
 import fpt.mailinhapp.dto.TaiKhoanDto;
@@ -33,12 +34,13 @@ public class AccountCLController {
             return error;
         }
         TaiKhoanDto tkDto = new TaiKhoanDto(dto.getUsername(), dto.getPassword(), VaiTro.ThanhVien);
-        var newDto = service.insertAccount(tkDto);
 
-        ThanhVienDto tvDto = new ThanhVienDto();
-        tvDto.setSoDT(dto.getUsername());
-        tvDto.setHoTen(dto.getName());
-        customerService.insertCustomers(tvDto);
+
+        ThanhVien tv = new ThanhVien();
+        tv.setId(dto.getUsername());
+        tv.setHoTen(dto.getName());
+        customerService.insertCustomers(tv);
+        var newDto = service.insertAccount(tkDto);
 
         return new ResponseEntity<>(newDto, HttpStatus.CREATED);
     }
