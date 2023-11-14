@@ -48,7 +48,7 @@ function Home() {
       <div className="large-image">
         <img src={baner1} alt="large" />
       </div>
-      <div className="layout flex flex-col">
+      <div className="layout">
         <div className="home-search z-30">
           <div className="search-form">
             <TimChuyen />

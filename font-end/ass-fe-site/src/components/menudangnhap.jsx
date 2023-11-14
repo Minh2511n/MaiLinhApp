@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/lichsumuave.css';
+import { useDispatch } from 'react-redux';
 import history from '../image/dangnhap/History.svg';
 import address from '../image/dangnhap/Address.svg';
 import pass from '../image/dangnhap/Password.svg';
@@ -7,8 +8,15 @@ import pro from '../image/dangnhap/Profile.svg';
 import futa from '../image/dangnhap/futaPay.svg';
 import log from '../image/dangnhap/Logout.svg';
 import { NavLink } from 'react-router-dom';
+import { logout } from "../redux/actions/actionAccount";
+import withRouter from '../helpers/withRouter';
 // Import CSS cho DatePicker
-function Menudangnap() {
+function Menudangnap(props) {
+    const {navigate} = props.router;
+    const dispatch = useDispatch();
+    const handleLogout = () => {
+        dispatch(logout(navigate));
+      };
     return (
         <div className="sidebar-dat-lai-mat-khau" style={{ marginTop: '1cm'}}>
             <ul>
@@ -38,7 +46,7 @@ function Menudangnap() {
                     </NavLink>
                 </li>
                 <li>
-                    <a href="#">
+                    <a onClick={handleLogout}>
                         <img src={log} alt="Đăng xuất" /> Đăng xuất
                     </a>
                 </li>
@@ -47,4 +55,4 @@ function Menudangnap() {
     );
 }
 
-export default Menudangnap;
+export default withRouter(Menudangnap);

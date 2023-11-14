@@ -6,7 +6,7 @@ import Menudangnhap from '../components/menudangnhap';
 
 function Thongtintaikhoan() {
     const [profileImage, setProfileImage] = useState('');
-
+    const user = localStorage.getItem("username");
     const handleImageUpload = (e) => {
         const file = e.target.files[0];
         if (file) {
@@ -37,7 +37,7 @@ function Thongtintaikhoan() {
                             <form id="account-information">
                                 <div className="form-group">
                                     <label htmlFor="full-name">Họ và tên :</label>
-                                    <input type="text" id="full-name" name="full-name" className="no-border" placeholder="Kìu Oanh" required />
+                                    <input type="text" id="full-name" name="full-name" className="no-border" value={user} required />
                                 </div>
 
                                 <div className="form-group">

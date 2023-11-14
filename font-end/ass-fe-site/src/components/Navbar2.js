@@ -21,8 +21,6 @@ import withRouter from '../helpers/withRouter';
 
 function Navbar(props) {
  const {navigate} = props.router;
-
-
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dispatch = useDispatch();
   const loggedInUser = useSelector((state) => state.AccountReducer.loggedInUser);
@@ -91,7 +89,7 @@ function Navbar(props) {
           </NavLink>
         ) : (
           <NavLink to="#" activeClassName="active" onClick={toggleDropdown}>
-            Xin chào {user}  <img src={dropdown} alt="" style={{width:'36px', height:'36px'}}/> 
+            Xin chào {user}  <img src={dropdown} alt="" style={{width:'36px', height:'36px', marginTop:'-10px'}}/> 
           </NavLink>
         )}
         {isDropdownOpen && (

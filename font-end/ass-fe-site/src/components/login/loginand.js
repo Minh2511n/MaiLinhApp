@@ -5,6 +5,7 @@ import { createAccount, login } from "../../redux/actions/actionAccount.js";
 import { Tabs } from "antd";
 import { connect } from "react-redux";
 import '../../css/login.scss';
+import DangKyForm from "./DangKyForm";
 const LoginPage = (props) => {
   const { navigate } = props.router;
   const onComfig = (acc) => {
@@ -22,7 +23,7 @@ const LoginPage = (props) => {
     {
       key: "2",
       label: "Đăng ký",
-      children: <DangNhapForm keyTabs={2} onFinish={onComfig} />,
+      children: < DangKyForm keyTabs={2} onFinish={onComfig} />,
     },
   ];
   return (

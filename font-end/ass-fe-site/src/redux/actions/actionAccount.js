@@ -16,32 +16,7 @@ export const createAccount = (account, navigate) => async (dispatch) => {
           payload: res.data,
         });
         
-        toast.success("Đăng kí thành công");
-      } else {
-        toast.error("Không có dữ liệu trả về từ máy chủ");
-      }
-      navigate("/");
-     
-    }
-  } catch (error) {
-    NotificationManager.error('Lỗi username đã tồn tại', 'Thông báo', 2000);
-
-  }
-};
-
-export const login = (account, navigate) => async (dispatch) => {
-  try {
-    const res = await service.Login(account);
-    console.log(res.data);
-    if (res.status === 202) {
-      if (res.data) {
-        dispatch({
-          type: ACCOUNT_SET,
-          payload: res.data,
-        });
-        // toast.success("Đăng nhâp thành công");
-        toast.success('Đăng nhập thành công', {
-          // position: "top-right",
+        toast.success('Đăng kí thành công', {
           position:"top-right",
          reverseOrder: false,
           autoClose: 1000,
@@ -52,26 +27,103 @@ export const login = (account, navigate) => async (dispatch) => {
           progress: undefined,
           theme: "colored",
           });
-          localStorage.setItem("username", res.data.tenTaiKhoan);
+          
 
           navigate("/thongttk");
-      }
+      }   
     }
+    
   } catch (error) {
-    toast.error('Không có dữ liệu trả về từ máy chủ!', {
-      position: "top-right",
-      autoClose: 2000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-      backgroundColor: "#ff0000", 
+    if (error.response && error.response.status === 400) {
+      const errorMessage =
+        error.response.data || '';
+      toast.error(errorMessage, {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        backgroundColor: "#ff0000",
       });
+    } else {
+      toast.error('Không có dữ liệu trả về từ máy chủ!', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        backgroundColor: "#ff0000", 
+        });
+  
+    }
 
   }
 };
+
+export const login = (account, navigate) => async (dispatch) => {
+  try {
+    const res = await service.Login(account);
+
+    if (res.status === 202) {
+      dispatch({
+        type: ACCOUNT_SET,
+        payload: res.data,
+      });
+
+      toast.success('Đăng nhập thành công', {
+        position: "top-right",
+        reverseOrder: false,
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
+
+      localStorage.setItem("username", res.data.tenTaiKhoan);
+
+      navigate("/thongttk");
+    } 
+  } catch (error) {
+    if (error.response && error.response.status === 400) {
+      const errorMessage =
+        error.response.data || '';
+
+      toast.error(errorMessage, {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        backgroundColor: "#ff0000",
+      });
+    } else {
+      toast.error('Không có dữ liệu trả về từ máy chủ!', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        backgroundColor: "#ff0000", 
+        });
+  
+    }
+    }
+  }
 export const logout = (navigate) => async (dispatch) => {
   try {
     localStorage.removeItem("username");
@@ -95,11 +147,8 @@ export const logout = (navigate) => async (dispatch) => {
         backgroundColor: "black",
       },
     });
-
-    // Chuyển hướng về trang chủ
-    navigate('/trangchu');
+    navigate('/');
   } catch (error) {
-    // Xử lý lỗi nếu cần.
     console.error(error);
   }
 };

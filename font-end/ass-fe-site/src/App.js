@@ -15,7 +15,6 @@ import LoginPage from "./components/login/loginand";
 import Lichtrinh from './components/lichtrinh';
 import Trangchu from "./components/trangChu/trangchu";
 import Tracuu from './components/tracuu';
-import Loc from './components/loc'
 import Tintuc from './components/tintuc';
 import Lsmuave from './components/lichsumuave';
 import Doimk from './components/doimatkhau';
