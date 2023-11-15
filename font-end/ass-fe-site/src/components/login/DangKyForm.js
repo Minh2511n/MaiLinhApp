@@ -33,7 +33,7 @@ const DangKyForm = (props) => {
       autoComplete="off"
     >
       <Form.Item
-        name="username"
+        name="tenTaiKhoan"
         rules={[
           {
             required: true,
@@ -49,7 +49,7 @@ const DangKyForm = (props) => {
       </Form.Item>
 
       <Form.Item
-        name="password"
+        name="matkhau"
         rules={[
           {
             required: true,
@@ -65,7 +65,7 @@ const DangKyForm = (props) => {
       </Form.Item>
 
       <Form.Item
-        name="name"
+        name="hoten"
         rules={[
           {
             required: true,

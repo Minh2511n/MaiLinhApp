@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ContactPage from './components/lienhe';
 import LoginPage from "./components/login/loginand";
 import Lichtrinh from './components/lichtrinh';
-import Trangchu from "./components/trangChu/trangchu";
+import Trangchu from "./components/trangchu/trangchu";
 import Tracuu from './components/tracuu';
 import Tintuc from './components/tintuc';
 import Lsmuave from './components/lichsumuave';
@@ -22,8 +22,8 @@ import Thongttk from './components/thongtintaikhoan';
 import Mailinhpay from './components/lichsugiaodịch'
 import Vechungtoi from './components/vechungtoi';
 import { NotificationContainer } from 'react-notifications';
-import ThongTin from "./components/trangChu/ThongTin";
-import SeatSelection from "./components/trangChu/loc";
+import ThongTin from "./components/trangchu/thongtin"
+import SeatSelection from "./components/trangchu/loc";
 import store from "./redux/store";
 function App() {
   const [showNavbar, setShowNavbar] = useState(true);

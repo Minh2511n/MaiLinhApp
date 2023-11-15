@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c002322-1741-47eb-a364-d05521c4205f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MaiLinhApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/font-end/ass-fe-site/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/Navbar2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/datVe/ChonCho.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/datVe/ChonDiemTra.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/datVe/Choncho.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/datVe/DatVeForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/datVe/SeatSelectionContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/datVe/ThongTinForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/doimatkhau.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/lichsugiaodịch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/lichsumuave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/lichtrinh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/lienhe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/loc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/login/DangNhapForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/login/loginand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/menudangnhap.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/thongtintaikhoan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/timChuyen/KhuHoi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/timChuyen/MotChieu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/timChuyen/TimChuyen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/tintuc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/tracuu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/trangchu/demo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/trangchu/loc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/trangchu/thongtin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/trangchu/trangchu.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/components/vechungtoi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/datlaimatkhau.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/lichsugiaodich.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/lichsumuave.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/lichtrinh.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/lienhe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/loc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/login.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/routes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/thongtintaikhoan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/tintuc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/tracuu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/css/vechungtoi.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/helpers/withRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Km/km1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Km/km2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Km/km3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Km/km4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Km/km5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Km/km6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/Mailinhlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/anhdemo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/arrow_dow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/baner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/baner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/bus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/bus1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/check-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/check2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/check3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dalat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/danang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/Address.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/History.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/Logout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/Password.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/Profile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/dropdown-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/futaPay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/mail_send.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/dangnhap/muitenlienhe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/download_app.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/BusLines-mailinh 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/Tdcpl (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/_Mailinh_Advertising 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/logoSaleNoti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/mailinhgiaohang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/footer/youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/gh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/hoadonml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logo/Text-mailinh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logo/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logo/shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/logotc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/pickup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/saigon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/save_money.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/seat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/station.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/switch_location.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/tintuc/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/trangchu/banner2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/userss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/vechungtoi/vct1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/vechungtoi/vct2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/vechungtoi/vct3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/vept.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/vietnam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/image/xehopdong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/actions/actionAccount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/actions/actionCommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/actions/actionType.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/reducers/AccountReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/reducers/commonReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/rootReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/redux/store.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/services/AccountService.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/services/constant.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/services/login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/ass-fe-site/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.bin/acorn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.bin/acorn.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.bin/acorn.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.bin/loose-envify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.bin/loose-envify.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/AsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/AwaitValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/OverloadYield.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/applyDecoratedDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/applyDecs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/applyDecs2203.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/applyDecs2203R.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/applyDecs2301.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/applyDecs2305.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/arrayLikeToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/arrayWithHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/assertThisInitialized.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/asyncGeneratorDelegate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/asyncIterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/asyncToGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/awaitAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/checkInRHS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/checkPrivateRedeclaration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classApplyDescriptorDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classApplyDescriptorGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classApplyDescriptorSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classCallCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classCheckPrivateStaticAccess.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classCheckPrivateStaticFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classExtractFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classNameTDZError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateFieldGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateFieldInitSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateFieldLooseBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateFieldLooseKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateFieldSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateMethodInitSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classStaticPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classStaticPrivateFieldSpecGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classStaticPrivateFieldSpecSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classStaticPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/classStaticPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/construct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/createClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/createForOfIteratorHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/createForOfIteratorHelperLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/createSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/decorate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/defineAccessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/defineEnumerableProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/defineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/dispose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/AsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/AwaitValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/OverloadYield.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/applyDecoratedDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/applyDecs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/applyDecs2203.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/applyDecs2203R.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/applyDecs2301.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/applyDecs2305.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/asyncGeneratorDelegate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/asyncIterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/awaitAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/checkInRHS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/checkPrivateRedeclaration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classApplyDescriptorSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classCallCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classCheckPrivateStaticAccess.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classCheckPrivateStaticFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classExtractFieldDescriptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classNameTDZError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateFieldGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateFieldInitSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateFieldLooseBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateFieldLooseKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateFieldSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateMethodInitSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldDestructureSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldSpecGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classStaticPrivateFieldSpecSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classStaticPrivateMethodGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/classStaticPrivateMethodSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/construct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/createClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelperLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/createSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/decorate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/defineAccessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/defineEnumerableProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/defineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/dispose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/extends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/identity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/importDeferProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/initializerDefineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/initializerWarningHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/instanceof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/interopRequireDefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/interopRequireWildcard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/isNativeFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/isNativeReflectConstruct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/iterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimitLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/maybeArrayLike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/newArrowCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/nullishReceiverError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/objectDestructuringEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/objectSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/objectSpread2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/readOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/skipFirstGeneratorNext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/slicedToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/slicedToArrayLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/superPropBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/tdz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/temporalRef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/temporalUndefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/toArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/toPrimitive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/toPropertyKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/typeof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/using.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/wrapAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/wrapRegExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/esm/writeOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/extends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/getPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/identity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/importDeferProxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/inheritsLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/initializerDefineProperty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/initializerWarningHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/instanceof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/interopRequireDefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/interopRequireWildcard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/isNativeFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/iterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/iterableToArrayLimitLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/maybeArrayLike.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/newArrowCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/nonIterableRest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/nonIterableSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/nullishReceiverError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/objectDestructuringEmpty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/objectSpread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/objectSpread2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/objectWithoutProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/readOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/regeneratorRuntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/setPrototypeOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/skipFirstGeneratorNext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/slicedToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/slicedToArrayLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/superPropBase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/taggedTemplateLiteralLoose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/tdz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/temporalRef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/temporalUndefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/toArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/toConsumableArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/toPrimitive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/toPropertyKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/typeof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/using.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/wrapAsyncGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/wrapNativeSuper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/wrapRegExp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/helpers/writeOnlyError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/@babel/runtime/regenerator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/bin/acorn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/dist/acorn.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/dist/acorn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/dist/acorn.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/dist/acorn.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/dist/acorn.mjs.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/dist/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/acorn/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/bind.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/dedupe.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/dedupe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/classnames/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/csstype/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/csstype/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/csstype/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/csstype/index.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/csstype/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/activeElement/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/addClass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/addEventListener/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/animate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/animationFrame/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/attribute/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/camelize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/camelizeStyle/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/canUseDOM/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/childElements/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/childNodes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/activeElement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/activeElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/addClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/addClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/addEventListener.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/addEventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/animate.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/animationFrame.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/animationFrame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/attribute.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/attribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/camelize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/camelize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/camelizeStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/camelizeStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/canUseDOM.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/canUseDOM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/childElements.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/childElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/childNodes.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/childNodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/clear.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/clear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/closest.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/closest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/collectElements.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/collectElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/collectSiblings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/collectSiblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/contains.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/contains.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/css.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/filterEventHandler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/filterEventHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/getComputedStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/getComputedStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/getScrollAccessor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/getScrollAccessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/hasClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/hasClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/height.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/height.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/hyphenate.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/hyphenate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/hyphenateStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/hyphenateStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/insertAfter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/insertAfter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isDocument.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isDocument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isInput.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isTransform.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isVisible.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isVisible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isWindow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/listen.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/listen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/matches.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/matches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/nextUntil.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/nextUntil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/offset.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/offsetParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/offsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/ownerDocument.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/ownerDocument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/ownerWindow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/ownerWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/parents.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/parents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/position.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/prepend.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/prepend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/querySelectorAll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/querySelectorAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/remove.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/remove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/removeClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/removeClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/removeEventListener.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/removeEventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollLeft.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollLeft.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollTo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollTop.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollTop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollbarSize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/scrollbarSize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/siblings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/text.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/toggleClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/toggleClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/transitionEnd.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/transitionEnd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/triggerEvent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/triggerEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/width.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/cjs/width.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/clear/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/closest/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/collectElements/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/collectSiblings/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/contains/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/activeElement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/activeElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/addClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/addClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/addEventListener.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/addEventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/animate.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/animationFrame.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/animationFrame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/attribute.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/attribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/camelize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/camelize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/camelizeStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/camelizeStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/canUseDOM.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/canUseDOM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/childElements.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/childElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/childNodes.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/childNodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/clear.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/clear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/closest.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/closest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/collectElements.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/collectElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/collectSiblings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/collectSiblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/contains.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/contains.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/css.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/filterEventHandler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/filterEventHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/getComputedStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/getComputedStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/getScrollAccessor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/getScrollAccessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/hasClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/hasClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/height.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/height.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/hyphenate.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/hyphenate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/hyphenateStyle.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/hyphenateStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/insertAfter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/insertAfter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isDocument.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isDocument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isInput.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isTransform.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isTransform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isVisible.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isVisible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isWindow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/listen.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/listen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/matches.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/matches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/nextUntil.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/nextUntil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/offset.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/offsetParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/offsetParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/ownerDocument.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/ownerDocument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/ownerWindow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/ownerWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/parents.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/parents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/position.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/prepend.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/prepend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/querySelectorAll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/querySelectorAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/remove.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/remove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/removeClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/removeClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/removeEventListener.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/removeEventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollLeft.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollLeft.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollParent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollParent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollTo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollTop.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollTop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollbarSize.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/scrollbarSize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/siblings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/text.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/toggleClass.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/toggleClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/transitionEnd.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/transitionEnd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/triggerEvent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/triggerEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/width.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/esm/width.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/filterEventHandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/getComputedStyle/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/getScrollAccessor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/hasClass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/height/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/hyphenate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/hyphenateStyle/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/insertAfter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/isDocument/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/isInput/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/isTransform/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/isVisible/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/isWindow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/listen/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/matches/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/nextUntil/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/offset/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/offsetParent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/ownerDocument/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/ownerWindow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/parents/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/position/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/prepend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/querySelectorAll/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/remove/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/removeClass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/removeEventListener/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/scrollLeft/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/scrollParent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/scrollTo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/scrollTop/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/scrollbarSize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/siblings/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/text/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/toggleClass/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/transitionEnd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/triggerEvent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/dom-helpers/width/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/js-tokens/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/js-tokens/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/js-tokens/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/js-tokens/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/loose-envify/replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/object-assign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/object-assign/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/object-assign/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/object-assign/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/checkPropTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/factoryWithThrowingShims.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/factoryWithTypeCheckers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/lib/ReactPropTypesSecret.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/lib/has.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/prop-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/prop-types/prop-types.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server.node.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-test-utils.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/cjs/react-dom.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/profiling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/server.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/server.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/test-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom-server-legacy.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom-server-legacy.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom-server.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom-test-utils.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-dom/umd/react-dom.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/build-info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/cjs/react-is.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/cjs/react-is.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/umd/react-is.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-is/umd/react-is.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/dist/fonts/notification.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/dist/fonts/notification.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/dist/fonts/notification.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/dist/fonts/notification.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/dist/react-notifications.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/dist/react-notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/gulpfile.babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/Notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/NotificationContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/NotificationManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/Notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/fonts/notification.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/fonts/notification.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/fonts/notification.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/fonts/notification.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/lib/notifications.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/Notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/NotificationContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/NotificationManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/Notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/fonts/notification.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/fonts/notification.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/fonts/notification.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/fonts/notification.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/src/notifications.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-notifications/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/CSSTransition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/ReplaceTransition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/SwitchTransition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/Transition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/TransitionGroup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/TransitionGroupContext/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/CSSTransition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/ReplaceTransition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/SwitchTransition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/Transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/TransitionGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/TransitionGroupContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/utils/ChildMapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/utils/PropTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/utils/SimpleSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/cjs/utils/reflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/config/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/dist/react-transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/dist/react-transition-group.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/CSSTransition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/ReplaceTransition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/SwitchTransition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/Transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/TransitionGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/TransitionGroupContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/utils/ChildMapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/utils/PropTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/utils/SimpleSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/esm/utils/reflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react-transition-group/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react-jsx-dev-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react-jsx-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react-jsx-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react-jsx-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react.shared-subset.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/cjs/react.shared-subset.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/jsx-dev-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/jsx-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/react.shared-subset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/umd/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/umd/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/react/umd/react.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/regenerator-runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/regenerator-runtime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/regenerator-runtime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/regenerator-runtime/path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/regenerator-runtime/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/cjs/scheduler-unstable_post_task.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/cjs/scheduler-unstable_post_task.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/cjs/scheduler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/cjs/scheduler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/umd/scheduler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/umd/scheduler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/umd/scheduler.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/unstable_mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/node_modules/scheduler/unstable_post_task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-end/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="client-controller" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2YCh2xZ9ItwRNKsIiS7qiB4csjc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "client-controller",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HOANG HUU/Desktop/MaiLinhApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.folder": "D:/DemoReactjs/MaiLinhApp/MaiLinhApp",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DemoReactjs\MaiLinhApp\MaiLinhApp\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c002322-1741-47eb-a364-d05521c4205f" name="Changes" comment="" />
+      <created>1700035266149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700035266149</updated>
+      <workItem from="1700035267149" duration="1344000" />
+      <workItem from="1700036646031" duration="186000" />
+      <workItem from="1700036845129" duration="90000" />
+      <workItem from="1700037099995" duration="49000" />
+      <workItem from="1700037836965" duration="225000" />
+      <workItem from="1700038123873" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/client-controller" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -29,7 +29,7 @@ export const createAccount = (account, navigate) => async (dispatch) => {
           });
           
 
-          navigate("/thongttk");
+          navigate("/");
       }   
     }
     
