@@ -1,7 +1,7 @@
 package fpt.mailinhapp.service;
 
 import fpt.mailinhapp.domain.TuyenXe;
-import fpt.mailinhapp.dto.SelectResq;
+import fpt.mailinhapp.resp.SelectResq;
 import fpt.mailinhapp.dto.TuyenXeDto;
 import fpt.mailinhapp.exception.BusesException;
 import fpt.mailinhapp.repository.TuyenXeRepository;
@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

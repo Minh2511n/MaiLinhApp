@@ -1,9 +1,9 @@
 package fpt.mailinhapp.clientController;
 
 import fpt.mailinhapp.dto.ChuyenXeDto;
-import fpt.mailinhapp.dto.ReqTimKhuHoi;
-import fpt.mailinhapp.dto.ReqTimMotChieu;
-import fpt.mailinhapp.dto.Return2List;
+import fpt.mailinhapp.resp.ReqTimKhuHoi;
+import fpt.mailinhapp.resp.ReqTimMotChieu;
+import fpt.mailinhapp.resp.Return2List;
 import fpt.mailinhapp.service.ChuyenXeService;
 import fpt.mailinhapp.service.MapValidationErrorService;
 import fpt.mailinhapp.service.TuyenXeService;

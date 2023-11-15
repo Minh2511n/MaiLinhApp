@@ -2,9 +2,8 @@ package fpt.mailinhapp.clientController;
 
 import fpt.mailinhapp.domain.ThanhVien;
 import fpt.mailinhapp.domain.VaiTro;
-import fpt.mailinhapp.dto.AccountReg;
+import fpt.mailinhapp.resp.AccountReg;
 import fpt.mailinhapp.dto.TaiKhoanDto;
-import fpt.mailinhapp.dto.ThanhVienDto;
 import fpt.mailinhapp.service.CustomerService;
 import fpt.mailinhapp.service.MapValidationErrorService;
 import fpt.mailinhapp.service.TaiKhoanService;

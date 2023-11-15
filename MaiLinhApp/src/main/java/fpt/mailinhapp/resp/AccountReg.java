@@ -1,4 +1,4 @@
-package fpt.mailinhapp.dto;
+package fpt.mailinhapp.resp;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AccountReg {
-    private String username;
-    private String password;
-    private String name;
+    private String tenTaiKhoan;
+    private String matkhau;
+    private String hoten;
 }

@@ -1,4 +1,4 @@
-package fpt.mailinhapp.dto;
+package fpt.mailinhapp.resp;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
